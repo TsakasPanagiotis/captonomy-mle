@@ -1,2 +1,4 @@
 torch==2.4.1
 transformers==4.45.1
+ipykernel==6.29.5
+pypdf==5.0.1
