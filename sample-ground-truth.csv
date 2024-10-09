@@ -1,0 +1,18 @@
+filename;title;authors;category
+ICDAR2024_proceedings_pdfs/0019.pdf;Light-Weight Multi-Modality Feature Fusion Network for Visually-Rich Document Understanding;Jeff Yang, Huynh Vu The and Hai Luu Tuan;Key Information Extraction
+ICDAR2024_proceedings_pdfs/0025.pdf;A Hybrid Approach for Document Layout Analysis in Document images;Tahira Shehzadi, Didier Stricker and Muhammad Zeshan Afzal;Document Layout Understanding
+ICDAR2024_proceedings_pdfs/0032.pdf;AltChart: Enhancing VLM-based Chart Summarization Through Multi-Pretext Tasks;Omar Moured, Jiaming Zhang, M. Saquib Sarfraz and Rainer Stiefelhagen;Datasets
+ICDAR2024_proceedings_pdfs/0043.pdf;Dynamic Relation Transformer for Contextual Text Block Detection;Jiawei Wang, Shunchi Zhang, Kai Hu, Chixiang Ma, Zhuoyao Zhong, Lei Sun and Qiang Huo;Document Layout Understanding
+ICDAR2024_proceedings_pdfs/0045.pdf;UniVIE: A Unified Label Space Approach to Visual Information Extraction from Form-like Documents;Kai Hu, Jiawei Wang, Weihong Lin, Zhuoyao Zhong, Lei Sun and Qiang Huo;Key Information Extraction
+ICDAR2024_proceedings_pdfs/0058.pdf;Analysis of the Calibration of Handwriting Text Recognition Models;Eric Ayllon, Francisco J. Castellanos and Jorge Calvo-Zaragoza;Optical Character Recognition
+ICDAR2024_proceedings_pdfs/0080.pdf;Typographic Text Generation with Off-the-Shelf Diffusion Model;KhayTze Peong, Seiichi Uchida and Daichi Haraguchi;Others
+ICDAR2024_proceedings_pdfs/0082.pdf;WikiDT: Visual-based Table Recognition and Question Answering Dataset;Hui Shi, Yusheng Xie, Luis Goncalves, Sicun Gao and Jishen Zhao;Tables
+ICDAR2024_proceedings_pdfs/0095.pdf;ClusterTabNet: Supervised clustering method for table detection and table structure recognition;Marek Polewczyk and Marco Spinaci;Tables
+ICDAR2024_proceedings_pdfs/0104.pdf;Doc-DINO: A Transformer Model for Complex Logical Document Layout Analysis;Qilin Deng, Mayire Ibrayim, Askar Hamdulla, Hailong Luo and Chunhu Zhang;Document Layout Understanding
+ICDAR2024_proceedings_pdfs/0105.pdf;Machine Unlearning for Document Classification;Lei Kang, Mohamed Ali Souibgui, Fei Yang, Lluis Gomez, Ernest Valveny and Dimosthenis Karatzas;Classification
+ICDAR2024_proceedings_pdfs/0109.pdf;On Image Processing and Pattern Recognition for Thermograms of Watermarks in Manuscripts – A First Proof-of-Concept;Dominik Hauser, Matthias Beckmann, Günther Koliander and H. Siegfried Stiehl;Others
+ICDAR2024_proceedings_pdfs/0122.pdf;Recognition and Link Prediction of Onomatopoeia Texts with Arbitrary Shapes;Jingtao Ma, Hongxi Wei and Yiming Wan;Others
+ICDAR2024_proceedings_pdfs/0160.pdf;DocTabQA: Answering Questions from Long Documents Using Tables;Haochen Wang, Kai Hu, Haoyu Dong and Liangcai Gao;Datasets
+ICDAR2024_proceedings_pdfs/0215.pdf;Information Extraction from Visually Rich Documents using Directed Weighted Graph Neural Network;Hamza Gbada, Karim Kalti and Mohamed Ali Mahjoub;Key Information Extraction
+ICDAR2024_proceedings_pdfs/0255.pdf;Cross-Domain Image Conversion by CycleDM;Sho Shimotsumagari, Shumpei Takezaki, Daichi Haraguchi and Seiichi Uchida;Others
+ICDAR2024_proceedings_pdfs/C03.pdf;ICDAR 2024 Competition on Handwriting Recognition of Historical Ciphers;Alicia Fornés, Jialuo Chen, Pau Torras, Carles Badal, Beáta Megyesi, Michelle Waldispühl, Nils Kopal and George Lasry;Optical Character Recognition
