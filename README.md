@@ -7,9 +7,31 @@ Create virtual environment `python -m venv .venv`
 Activate virtual environment `.\.venv\Scripts\activate`  
 Install requirements `pip install -r requirements.txt`  
 
+## Files and Results
+
+- manual annotations in `sample-ground-truth.csv`
+
+`process-data.ipynb`
+- extraction of title, authors, abstract, keywords and introduction
+- stores `papers.pkl` pickle file with list of papers in 
+
+`similarity.ipynb`
+- sentence similarity with simple and extended (-ext) categories
+- stores `similarity-preds.csv` and `similarity-preds-ext.csv` files with paper title, authors, and predicted category
+- stores `similarity-preds.json` and `similarity-preds-ext.json` files with structure specified in the instructions
+
+`generation.ipynb`
+- text generation with causal language modeling (-clm) and instruction-tuned language modeling (-itlm)
+- stores `generation-clm.csv` and `generation-itlm.csv` files with paper title, authors, and predicted category
+- stores `generation-clm.json` and `generation-itlm.json` files with structure specified in the instructions
+
+`evaluation.ipynb`
+- evaluation of all four approaches: two sentence similarity and two text generation approaches 
+- stores `similarity-confusion-matrix.png` and `similarity-confusion-matrix-ext.png` images for the two similarity approaches
+
 ## Information Extraction
 
-Related code in ```process-data.ipynb```.
+Related code in `process-data.ipynb`.
 
 The `pypdf` library was used to read the PDF files. The function `extract_text` had two possible extraction modes: plain and layout. First, the plain mode was used to extract the raw text of the first page. Then, regular expressions were used to split the text into the header (title, authors, affiliations), abstract, and perhaps keywords and introduction if they existed. Following, the layout mode was used to separate the title from the authors and their affiliations. Afterward, several heuristic regular expressions were used to find the word `and` and the newline character `\n` around the last author and remove the rest of the following words i.e. the affiliations. Finally, excess white space, redundant commas, leftover characters, and non-alphabetic characters (e.g. indices and IDs) were removed from the authors as cleanup.
 
